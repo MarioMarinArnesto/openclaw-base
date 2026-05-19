@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/openclaw-base
+  IMAGE_NAME: mariomarinarnesto/openclaw-base
 
 jobs:
   build-and-push:
